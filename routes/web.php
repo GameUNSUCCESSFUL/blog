@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	$tasks = [
+		'go to home',
+		"I don't no",
+	];
+    return view('welcome', compact('tasks'));
+});
+
+Route::get('/about', function(){
+	return view('about/about');
 });
