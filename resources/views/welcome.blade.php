@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Blog</title>
+	<meta charset="UTF-8">
+	<title>Document</title>
 </head>
 <body>
-        <ul>
-
-       		@foreach ($tasks as $task)
-       			<li>{{ $task }}</li>
-       		@endforeach
-
-        </ul>
+	<h1>Blog Laravel</h1>
 </body>
 </html>
